@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Walid SAAD">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>SCO-ENICAR</title>
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core JS-JQUERY -->
+<script src="jquery.min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+    <style>
+      li {
+              border-right: 1px solid #bbb;
+              border-color: cornflowerblue;
+         }
+         li:last-child {
+               border-right: none;
+          }
+
+      /*Ajouter fond image dynamique*/
+      .jumbotron{
+        background-position:center;
+        background-size:cover;
+        text-align:center;
+        justify-content:center;
+      }
+      main {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 40px 50px;
+      }
+      .study {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 40px 50px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+      <div>
+      <img style="width: 80px;" src="logoa.png" alt="">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul style="margin-left: auto; margin-right: auto;" class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+          </li>
+      
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-expanded="false">Gestion des Groupes</a>        
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="afficherEtudiants.php">Lister tous les étudiants</a>
+              <a class="dropdown-item" href="afficherEtudiantsParClasse.php">Etudiants par Groupe</a>
+              <a class="dropdown-item" href="AjouterGroupe.php">Ajouter Groupe</a>
+              <a class="dropdown-item" href="ModifierGroupe.php">Modifier Groupe</a>
+              <a class="dropdown-item" href="SupprimerGroupe.php">Supprimer Groupe</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-expanded="false">Gestion des Etudiants</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="ajouterEtudiant.php">Ajouter Etudiant</a>
+              <a class="dropdown-item" href="ChercherEtudiant.php">Chercher Etudiant</a>
+              <a class="dropdown-item" href="ModifierEtudiant.php">Modifier Etudiant</a>
+              <a class="dropdown-item" href="SupprimerEtudiant.php">Supprimer Etudiant</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-expanded="false">Gestion des Absences</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="saisirAbsence.php">Saisir Absence</a>
+              <a class="dropdown-item" href="etatAbsence.php">État des absences pour un groupe</a>
+            </div>
+          </li>
+
+          <li  class="nav-item active">
+            <a class="nav-link" href="deconnexion.php">Se Déconnecter <span class="sr-only">(current)</span></a>
+          </li>
+
+        </ul>
+      </div>
+      <div>
+        <img style="width: 120px;" src="logoenicarthage.jpg" alt="">
+      
+      </div>
+    </nav> 
+  </header>
+  <br>
+  <br>
+  <h1 style="text-align: center ; color:darkslateblue ">L'Ecole Nationale d’Ingénieurs de Carthage <br> (ENICarthage)</h1>
+  <main>
+  <div style="float:left">
+  <h5 style="margin-right:30px ;">L'Ecole Nationale d’Ingénieurs de Carthage (ENICarthage) est un établissement d’enseignement supérieur publique, relevant de l'Université de Carthage, créé (décret n° 2002-1623 du 9 juillet 2002), en tant que Ecole Supérieure de Technologie et d’Informatique (ESTI), en 2002 et transformé en école nationale d’ingénieurs recrutant ses élèves à partir du concours national d’ingénieurs à partir de septembre 2012 (décret n° 2014-4677 du 29 décembre 2014). <br>
+
+    Etant habilitée à délivrer des diplômes de Maîtrise depuis 2002 et ayant intégré le système LMD depuis la rentrée 2007, Cette école a offert plusieurs formations spécialisées dans les domaines du Génie Electrique, de l’Informatique et de la Gestion Industrielle, parmi lesquelles des formations d’ingénieurs en sciences appliquées et Technologie.
+  </h5></div>
+  <div >
+  <img style="border-radius: 8px;" src="annexe.jpeg" alt="">
+  </div>
+  </main>
+  <div class="study">
+    <div> <img style="border-radius: 8px; height: 300px ; width:auto ; margin-left: 50px ;" src="study.jpg" alt=""></div>
+    <div style="margin-right: 50px ; ">
+      <h2>Les formations</h2>
+      <p>Depuis septembre 2012,,l’ENICarthage offre trois formations d’Ingénieur National en : </p>
+      <br>
+      <ul>
+        <li><h4>Génie Informatique</h4></li>
+        <p>Environ 120 élèves ingénieurs /promotion)</p>
+        <br>
+        <li><h4>Mécatronique</h4></li>
+        <p>Environ 100 élèves ingénieurs /promotion</p>
+        <br>
+        <li><h4>Génie des Systèmes Industriels et Logistiques</h4></li>
+        <p>Environ 60 élèves ingénieurs /promotion)</p>
+      </ul>
+    </div>
+  </div>
